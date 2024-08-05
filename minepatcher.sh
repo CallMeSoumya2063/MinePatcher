@@ -10,6 +10,8 @@ else
     termux-setup-storage
 fi
 
+apt update && apt upgrade -y
+
 # Check and setup dependencies
 declare -A packages
 packages=(
