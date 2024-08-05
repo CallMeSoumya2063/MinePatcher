@@ -439,7 +439,7 @@ if [ "$result" == "yes" ]; then
         echo "Default app icon will be used."
     fi
     java -jar apkeditor.jar b -i "${decomp}"
-    ./rsapksign -p ${package_name} -a ${app_name} -o "$(dirname "$apkpath")/PATCHED-$(basename "$apkpath")" "${decomp}_out.apk"
+    ./rsapksign -p "${package_name}" -a "${app_name}" -o "$(dirname "$apkpath")/PATCHED-$(basename "$apkpath")" "${decomp}_out.apk"
     mv "${newpath}" "${apkpath}"
     rm -rf "${decomp}_out.apk" "${decomp}" apkeditor.jar rsapksign rsapksign.tar.gz
 else
