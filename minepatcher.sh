@@ -144,6 +144,8 @@ if [ "$result" == "yes" ]; then
     # Get app name from the user
     dialog --no-shadow --title "App Name" --inputbox "Enter the App Name:" 8 40 2>app_name
     clear
+    app_name=$(cat app_name)
+    rm app_name
     if [ -z "$app_name" ]; then
         app_name="Minecraft"
     fi
@@ -151,6 +153,8 @@ if [ "$result" == "yes" ]; then
     # Get package name from the user
     dialog --no-shadow --title "Package Name" --inputbox "Enter the Package Name:" 8 40 2>package_name
     clear
+    package_name=$(cat package_name)
+    rm package_name
     if [ -z "$package_name" ]; then
         package_name="com.mojang.minecraftpe"
     fi
