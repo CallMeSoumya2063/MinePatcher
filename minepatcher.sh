@@ -359,16 +359,16 @@ for patch in "${chosen_patches[@]}"; do
             for dir in "${decomp}/root/lib"/*; do
             case "$(basename "$dir")" in
                 "arm64-v8a")
-                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.7/libmcbe_r_aarch64-linux-android.so"
+                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.8/libmcbe_r_aarch64-linux-android.so"
                 ;;
                 "armeabi-v7a")
-                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.7/libmcbe_r_armv7-linux-androideabi.so"
+                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.8/libmcbe_r_armv7-linux-androideabi.so"
                 ;;
                 "x86_64")
-                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.7/libmcbe_r_x86_64-linux-android.so"
+                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.8/libmcbe_r_x86_64-linux-android.so"
                 ;;
                 "x86")
-                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.7/libmcbe_r_i686-linux-android.so"
+                curl -L -o "$dir/libmcbe_r.so" "https://github.com/mcbegamerxx954/mcbe_shader_redirector/releases/download/v0.1.8/libmcbe_r_i686-linux-android.so"
                 ;;
             esac
             done
