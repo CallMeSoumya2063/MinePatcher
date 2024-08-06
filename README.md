@@ -17,7 +17,7 @@ Please stay connected to the internet while patching.
 
 Information of each individual patch will be added here soon.
 
-Credits:
+__Credits:__
 - mcbegamerxx954 for mcbe redirector, rsapksign, material updater
 - mrwang2408 for essl100 pack and overall queries
 - ReAndroid for APKEditor
