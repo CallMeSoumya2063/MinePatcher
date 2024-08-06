@@ -21,5 +21,7 @@ Credits:
 - mcbegamerxx954 for mcbe redirector, rsapksign, material updater
 - mrwang2408 for essl100 pack and overall queries
 - ReAndroid for APKEditor
+- MaxRM for information about "Old Storage Path" patch
+- YSS Team for permission of using their Patched App's title.png in "Patched UI" patch
 
-Please report bugs and issues in issues or in my Discord DMs (@callmesoumya).
+Please report bugs and issues in GitHub or in my Discord DMs (@callmesoumya).
