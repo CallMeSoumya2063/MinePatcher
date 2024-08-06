@@ -383,6 +383,7 @@ for patch in "${chosen_patches[@]}"; do
             echo "Applying 'Patched UI' patch..."
             curl https://raw.githubusercontent.com/CallMeSoumya2063/MinePatcher/main/title.png > ${decomp}/root/assets/assets/resource_packs/vanilla/textures/ui/title.png
             replace "${decomp}/root/assets/assets/resource_packs/vanilla/ui/start_screen.json" "  \"development_version\": {" "          \"text\": \"Patched with MinePatcher\"," 8
+            replace "${decomp}/root/assets/assets/resource_packs/vanilla/ui/start_screen.json" "  \"text_panel\": {" "" 12
             ;;
         "No License Check")
             echo "Applying 'No License Check' patch..."
