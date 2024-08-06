@@ -1,5 +1,5 @@
 # MinePatcher
-A bash script for patching Minecraft on Android utilising text based UI
+A bash script for patching Minecraft for Android utilising text based UI
 
 # **WIP**
 
